@@ -15,7 +15,9 @@ public class Hooks {
     @Before("@ui")
     public void setUp(){
 
-        Driver.getDriver().get(ConfigurationReader.getProperty("env"));
+        Driver.getDriver().manage().window().maximize();
+        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //Driver.getDriver().get(ConfigurationReader.getProperty("env"));
 
     }
 

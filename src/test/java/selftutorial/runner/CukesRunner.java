@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
-        glue = "src/test/java/selftutorial/step_definitions",
+        glue = "selftutorial/step_definitions",
         dryRun = false,
         tags = ""
         )
