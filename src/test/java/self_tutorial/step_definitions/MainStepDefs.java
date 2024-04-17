@@ -17,7 +17,7 @@ public class MainStepDefs {
     }
     @Then("User should see the top header")
     public void user_should_see_the_top_header() {
-        Assert.assertTrue(mainPage.topHeader.isDisplayed());
+        Assert.assertTrue(mainPage.getTopHeader().isDisplayed());
     }
 
 }
