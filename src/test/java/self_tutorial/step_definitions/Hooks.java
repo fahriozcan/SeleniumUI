@@ -1,11 +1,11 @@
-package selftutorial.step_definitions;
+package self_tutorial.step_definitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import selftutorial.utils.*;
+import self_tutorial.utils.*;
 
 
 import java.time.Duration;

@@ -1,4 +1,4 @@
-package selftutorial.utils;
+package self_tutorial.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

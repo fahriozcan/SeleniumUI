@@ -1,4 +1,4 @@
-package selftutorial.runner;
+package self_tutorial.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
-        glue = "selftutorial/step_definitions",
+        glue = "/self_tutorial/step_definitions",
         dryRun = false,
         tags = ""
         )
