@@ -1,9 +1,9 @@
-package selftutorial.pages;
+package self_tutorial.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import selftutorial.utils.Driver;
+import self_tutorial.utils.Driver;
 
 public abstract class BasePage {
     public BasePage(){

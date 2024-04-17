@@ -1,4 +1,4 @@
-package selftutorial.pages;
+package self_tutorial.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

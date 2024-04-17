@@ -1,4 +1,4 @@
-package selftutorial.utils;
+package self_tutorial.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

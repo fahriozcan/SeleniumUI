@@ -1,4 +1,4 @@
-package selftutorial.runner;
+package self_tutorial.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
