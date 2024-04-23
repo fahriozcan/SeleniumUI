@@ -14,4 +14,7 @@ public class W3Page {
     @FindBy (id = "demo")
     public WebElement doubleClickMe;
 
+    @FindBy (id = "accept-choices")
+    public WebElement popUpAccept;
+
 }
