@@ -37,15 +37,15 @@ public class W3Schools_Double_Click {
     @When("user double clicks the target element")
     public void user_double_clicks_the_target_element() {
         Driver.getDriver().switchTo().frame("iframeResult"); // on the page there is an iframe that we have to switch to
-        wait.until(ExpectedConditions.elementToBeClickable(w3Page.doubleClickMe));
-        actions.doubleClick(w3Page.doubleClickMe).perform();
+        wait.until(ExpectedConditions.elementToBeClickable(w3Page.doubleClickMe));// explicit wait strategy is implemented because of need
+        actions.doubleClick(w3Page.doubleClickMe).perform(); //actions class with double click action is performed
     }
     @Then("user should see colour of web element changed red")
     public void user_should_see_colour_of_web_element_changed_red() {
-        String actualAttributeValue = w3Page.doubleClickMe.getAttribute("style");
-        String expectedInAttributeValue = "color: red;";
-        System.out.println("actualAttributeValue = " + actualAttributeValue);
-        System.out.println("expectedInAttributeValue = " + expectedInAttributeValue);
+        String actualAttributeValue = w3Page.doubleClickMe.getAttribute("style"); // getting the actual value of style attribute
+        String expectedInAttributeValue = "color: red;"; // expected value of style attribute
+        System.out.println("actualAttributeValue = " + actualAttributeValue); // to see the result
+        System.out.println("expectedInAttributeValue = " + expectedInAttributeValue); // to see the result
         Assert.assertEquals(expectedInAttributeValue, actualAttributeValue);
     }
 
